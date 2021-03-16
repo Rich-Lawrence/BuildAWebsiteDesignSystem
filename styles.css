@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    font-size: xx-large;
+}
+
+.colors1 {
+    border: solid 3px black;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+.colors1 li{
+    border: black 1px solid;
+    width:300px;
+    padding:30px;
+    margin: 0 30px 20px 30px;
+    display: inline-block;
+}
+
+/* Colours Monochramatic */
+
+#darkest {
+    background: #2b2b2b;
+    color: white;
+}
+#dark{
+    background: #636363;
+    color: white;
+}
+#med{
+    background: #a3a3a3;
+}
+#light{
+    background: #d6d6d6;
+}
+#lightest{
+    background: #ffffff;
+}
+
+/* Colours complementary */
+
+#darkest2 {
+    background: #2A0934;
+    color: white;
+}
+#dark2{
+    background: #8601AF;
+    color: white;
+}
+#med2{
+    background: #9214B8;
+    color: white;
+}
+#light2{
+    background: ##FEFE33;
+}
+#lightest2{
+    background: #F7F7D4;
+}
