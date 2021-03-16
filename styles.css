@@ -61,3 +61,27 @@ header {
 #lightest2{
     background: #F7F7D4;
 }
+
+/* Fonts */
+
+.parent {
+    height: 200px;
+    border:black solid 3px;
+    margin-top: 20px;
+}
+.parent > div {
+    width: calc(100%/3);
+    text-align: center;
+    height: 100%;
+    float:left;
+}
+.fonts1 {
+    font-family: "Roboto Mono", sans-serif;
+}
+.fonts2 {
+    font-family: "Poppins", sans-serif;
+}
+.fonts3 {
+    font-family: "Rubik", sans-serif;
+}
+
